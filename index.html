@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C80</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
+
+</head>
+<body>
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	List of the students in my class
+</h3>
+
+
+<input type="text" placeholder="Enter Name" id="name_of_guest">
+
+
+
+
+<button onclick="submit()" id="submit_button">
+	Submit
+</button>
+<hr>
+<h1>Guest List </h1>
+<button onclick="showing()" id="sort_button">
+	Show
+</button>
+<h3 id="guest_list"></h3>
+<button onclick="guest_list.sort()" id="sort_button">
+	Sort
+</button>
+<h3 id="guest_list_sorted"></h3>
+
+<hr><hr>
+<input type="text" placeholder="Search Name">
+<button id="search" onclick="search_name()">Search</button>
+<h3 id="searchedname" onclick="searched_name"></h3>
+
+
+
+</center>
+
+</script>
+</body>
+</html>
